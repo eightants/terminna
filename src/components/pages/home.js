@@ -13,7 +13,7 @@ class Home extends Component {
               <p data-aos="fade-up" data-aos-delay="300" class="px-2 tooltips">Type 'cd pagename' in the prompt to start navigating, or use the links on the top right. Try it out with 'cd projects'</p>
           </div>
           <div>
-            <img class="greyfilter col-lg-5 anchor-img px-10" src={coding}></img>
+            <img data-aos="fade-up" data-aos-delay="400" class="greyfilter col-lg-5 anchor-img px-10" src={coding}></img>
           </div>
         </div>
     );
