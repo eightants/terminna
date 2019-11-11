@@ -44,7 +44,7 @@ a:hover {
 }
 
 .anchor-txt {
-  font-size: 10rem;
+  font-size: 8rem;
 
 }
 
@@ -53,8 +53,14 @@ a:hover {
 }
 
 .anchor {
-  margin: 8% auto;
+  margin: 6% 0px;
   text-align: left;
+  float: left;
+}
+
+.anchor-img {
+  margin: 10% 0px;
+  display: inline-block;
 }
 
 .content {
@@ -201,12 +207,15 @@ a:hover {
 
 .card-link {
   color: white;
+  filter: grayscale();
   opacity: 0.9;
 }
 
 .card-link:hover {
   opacity: 1;
+  filter: none;
   color: white;
+  transition-duration: 0.5s;
 }
 
 .tiny-name {
@@ -214,6 +223,11 @@ a:hover {
   font-size: 1rem;
   font-style: italic;
 }
+
+.greyfilter {
+  filter: grayscale();
+}
+
 
 #project01 {
   background-position: center;
@@ -272,5 +286,11 @@ a:hover {
   }
   .nomobile {
     display: none;
+  }
+  .card-link {
+    filter: none;
+  }
+  .greyfilter {
+    filter: none;
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import contactimg from "../../assets/contactimg.svg"
 
 class Contact extends Component {
   render() {
@@ -19,6 +20,8 @@ class Contact extends Component {
                 <br/>
                 <a href='https://github.com/eightants'>Github</a>
               </p>
+              <br></br>
+              <img class="project-img col-lg-5 px-10 greyfilter" src={contactimg}></img>
           </div>
       </div>
   </div>
