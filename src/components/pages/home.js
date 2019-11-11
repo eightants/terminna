@@ -9,6 +9,7 @@ class Home extends Component {
               I'm Anthony. I'm a developer with an interest in the digital experience. 
             </h2>
             <p data-aos="fade-up" data-aos-delay="300" class="px-2 tooltips">Type 'cd pagename' in the prompt to start navigating, or use the links on the top right. </p>
+            <p data-aos="fade-up" data-aos-delay="300" class="px-2 tooltips">Available pages: home, projects, about, contact</p>
         </div>
     );
   }

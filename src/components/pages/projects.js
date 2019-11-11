@@ -12,7 +12,7 @@ class Projects extends Component {
                 <div className="col-lg-3 title">
                     <h1 data-aos="fade-up">Projects</h1>
                     <p data-aos="fade-up" data-aos-delay="100">Intriguing and purposeful projects. </p>
-                    <p data-aos="fade-up" data-aos-delay="150" class='tooltips'>Use 'cat projectname' or click on the project to learn more. </p>
+                    <p data-aos="fade-up" data-aos-delay="150" class='tooltips'>Use 'cat projectname' or click on the project to learn more. e.g. 'cat marktplaats'</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="150" className="col-lg-8 project-grid">
                     <Link class="card-link" to="/projects/marktplaats">
