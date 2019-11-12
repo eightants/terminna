@@ -24,7 +24,7 @@ import project04 from './components/projects/project04';
 import './App.css';
 
 class App extends Component {
-  componentDidMount() {
+  /*componentDidMount() {
     AOS.init({
       duration: 800, 
       once: true, 
@@ -33,7 +33,7 @@ class App extends Component {
   }
   componentDidUpdate() {
     AOS.refresh();
-  }
+  } */
   render() {
     return (
       <Router>
