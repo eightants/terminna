@@ -28,8 +28,11 @@ class App extends Component {
     AOS.init({
       duration: 800, 
       once: true, 
-      disable: "mobile"
+      disable: "phone"
     })
+  }
+  componentDidUpdate() {
+    AOS.refresh();
   }
   render() {
     return (
