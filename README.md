@@ -26,5 +26,4 @@ if (action === 'cd') {
 }
 ```
 
-> MIT License
-> Anthony Teo, 2019
+> MIT License. Anthony Teo, 2019
