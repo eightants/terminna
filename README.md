@@ -1,4 +1,6 @@
 # terminna
+[[View Website]](https://anthonyt.netlify.com)
+
 Modern dark personal website theme with a novelty terminal navigation. Terminal-like websites are commonly used as personal websites for programmers, but they usually all use the same bright colours and fonts. Terminna is an experiment into integrating the functionality and novelty of a command prompt into a modern website design. Users can navigate the website with UNIX commands including `cd` and `cat`. This design concept would work well with personal portfolio websites for programmers or as an extra touch on websites for computer science organizations and events
 
 ## Setup
